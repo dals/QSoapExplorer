@@ -9,6 +9,7 @@ QT       += network script scripttools webkit xml xmlpatterns
 TARGET = QSoapExplorer
 TEMPLATE = app
 
+include(./lib/qtsoap/src/qtsoap.pri)
 
 SOURCES += main.cpp\
         qsoapexplorer.cpp
